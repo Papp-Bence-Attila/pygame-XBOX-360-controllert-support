@@ -1,1 +1,1 @@
-# Pygame XBOX-360 constroller support
+# Pygame XBOX-360 controller support
