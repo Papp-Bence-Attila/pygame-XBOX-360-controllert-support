@@ -1,12 +1,12 @@
 
 import pygame
-import pygame_constroller_support
+import pygame_xbox360_controller_support
 
 pygame.init()
 
 
 screen = pygame.display.set_mode((300, 300))
-Controller = pygame_constroller_support.Controller()
+Controller = pygame_xbox360_controller_support.Controller()
 controllers = []
 clock = pygame.time.Clock()
 font = pygame.font.SysFont("monospace", 15)
@@ -33,8 +33,8 @@ while run:
         d = Controller.d_pad(controller)
         label(f"L_HOR: {j['L_HOR']}", 10, 10)
         label(f"L_VERT: {j['L_VERT']}", 10, 25)
-        label(f"B_HOR: {j['R_HOR']}", 10, 40)
-        label(f"B_VERT: {j['R_VERT']}", 10, 55)
+        label(f"R_HOR: {j['R_HOR']}", 10, 40)
+        label(f"R_VERT: {j['R_VERT']}", 10, 55)
         label(f"RT: {t['RT']}", 10, 70)
         label(f"LT: {t['LT']}", 10, 85)
         label(f"A: {b['A']}", 10, 100)
