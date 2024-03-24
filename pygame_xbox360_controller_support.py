@@ -15,8 +15,8 @@ if platform == LINUX:
     L_JOYSCTICK_VERT = 1
     R_JOYSCTICK_HOR = 3
     R_JOYSCTICK_VERT = 4
-    LT = 5
-    RT = 2
+    LT = 2
+    RT = 5
     A = 0
     B = 1
     X = 2
@@ -28,8 +28,8 @@ if platform == LINUX:
     HOME = 8
     L_STICK_IN = 9
     R_STICK_IN = 10
-    D_PAD_HOR = 1
-    D_PAD_VERT = 0
+    D_PAD_HOR = 0
+    D_PAD_VERT = 1
 elif platform == WINDOWS:
     L_JOYSCTICK_HOR = 0
     L_JOYSCTICK_VERT = 1
